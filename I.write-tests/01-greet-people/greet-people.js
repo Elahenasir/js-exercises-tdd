@@ -1,3 +1,4 @@
+var mentors = ['Irina', 'Ashleigh', 'Etza'];
 function greetPeople(people) {
     var greeting = 'Hello ';
 
@@ -5,9 +6,9 @@ function greetPeople(people) {
         greeting = greeting + person;
     });
 
-    return greeting;
+   return greeting;
 }
-
+console.log(greetPeople(mentors));
 module.exports = greetPeople;
 
 /*
